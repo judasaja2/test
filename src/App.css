@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-logo-header {
+    width: 115px;
+}
+
+.App-tablas {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid;
+  border-spacing: 1px;
+  border-collapse: initial;
+}
+.App-tablas td{
+    text-align: center;
+}
+
+.App-tablas tr:nth-child(even) { background: #ddd }
+.App-tablas tr:nth-child(odd) { background: #fff}
