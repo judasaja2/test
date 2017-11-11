@@ -116,11 +116,6 @@ class App extends Component {
     return (<div className="App">
       <div className="App-header"></div>
       <p className="App-intro">
-        <h2>Realizado por:</h2>
-        <h4>Juan David Sánchez Jaramillo</h4>
-        <h4>Sebastian Londoño Alvarez</h4>
-        <h4>David Alexander Parra Valencia</h4>
-        <h4>Johan Alberto Marin Bustamante</h4>
         <p>
           {buttons}
         </p>
